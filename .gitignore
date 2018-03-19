@@ -8,5 +8,8 @@ robots.txt
 /build/
 /mod/
 /releases/
-composer.lock
+/vendor/
 Gemfile.lock
+/tests/tmp/
+coverage.clover
+composer.lock
