@@ -22,5 +22,7 @@ return function () {
 		elgg_register_collection('collection:river:owner', \hypeJunction\Activity\OwnedActivivityCollection::class);
 		elgg_register_collection('collection:river:friends', \hypeJunction\Activity\FriendsActivityCollection::class);
 		elgg_register_collection('collection:river:group', \hypeJunction\Activity\GroupActivityCollection::class);
+
+		elgg_unextend_view('groups/tool_latest', 'framework/wall/group_module');
 	});
 };

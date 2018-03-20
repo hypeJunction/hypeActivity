@@ -8,6 +8,7 @@ $guid = $request->getParam('guid');
 elgg_entity_gatekeeper($guid, 'group');
 
 $entity = get_entity($guid);
+/* @var $entity ElggGroup */
 
 $collections = elgg()->collections;
 /* @var $collections \hypeJunction\Lists\Collections */
@@ -39,9 +40,11 @@ elgg_push_context('activity');
 $content = elgg_view('groups/profile/layout', $vars);
 
 if ($entity->canAccessContent()) {
-	$content .= elgg_view('page/components/wall', [
-		'container' => $entity,
-	]);
+	if ($entity->isToolEnabled('wall')) {
+		$content .= elgg_view('page/components/wall', [
+			'container' => $entity,
+		]);
+	}
 	$content .= elgg_view('river/filter', $vars);
 	$content .= $activity;
 }
