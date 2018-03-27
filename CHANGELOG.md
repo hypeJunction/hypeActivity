@@ -1,3 +1,13 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.2...1.0.3) (2018-03-27)
+
+
+### Bug Fixes
+
+* **modules:** rearrange profile modules ([fce195a](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/fce195a))
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.1...1.0.2) (2018-03-20)
 
