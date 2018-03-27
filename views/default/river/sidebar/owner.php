@@ -12,3 +12,5 @@ echo elgg_view_layout('widgets', [
 ]);
 
 elgg_pop_context();
+
+echo elgg_view('post/template/default/sidebar', $vars);
