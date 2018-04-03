@@ -1,3 +1,13 @@
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.3...1.0.4) (2018-04-03)
+
+
+### Bug Fixes
+
+* **css:** group tools no longer push out of the page on mobile ([8efcb3e](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/8efcb3e))
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.2...1.0.3) (2018-03-27)
 
