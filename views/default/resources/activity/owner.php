@@ -22,9 +22,11 @@ if (!$collection) {
 	throw new \Elgg\PageNotFoundException();
 }
 
+elgg_push_context('activity');
 $activity = elgg_view('collection/view', [
 	'collection' => $collection,
 ]);
+elgg_pop_context();
 
 if ($request->isXhr()) {
 	echo $activity;

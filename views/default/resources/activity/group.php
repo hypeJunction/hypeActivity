@@ -22,9 +22,11 @@ if (!$collection) {
 
 $activity = '';
 if ($entity->canAccessContent()) {
+	elgg_push_context('activity');
 	$activity = elgg_view('collection/view', [
 		'collection' => $collection,
 	]);
+	elgg_pop_context();
 }
 
 if ($request->isXhr()) {
