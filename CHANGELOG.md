@@ -1,3 +1,13 @@
+<a name="1.0.6"></a>
+## [1.0.6](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.5...1.0.6) (2018-04-25)
+
+
+### Bug Fixes
+
+* **css:** remove redundant border in attached lists ([d9dac2f](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/d9dac2f))
+
+
+
 <a name="1.0.5"></a>
 ## [1.0.5](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.4...1.0.5) (2018-04-17)
 
