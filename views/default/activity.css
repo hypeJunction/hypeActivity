@@ -114,6 +114,9 @@
 	.elgg-river-attachments {
 		padding: 0;
 		border-top: 1px solid $(border-color-soft);
+		.elgg-list > li:last-child {
+			border-bottom: none;
+		}
 	}
 
 	.elgg-river-attachment,
