@@ -1,3 +1,13 @@
+<a name="1.0.8"></a>
+## [1.0.8](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.7...1.0.8) (2018-04-26)
+
+
+### Bug Fixes
+
+* **lists:** set default pagination type ([ba7cd00](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/ba7cd00))
+
+
+
 <a name="1.0.7"></a>
 ## [1.0.7](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.6...1.0.7) (2018-04-26)
 
