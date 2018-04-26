@@ -66,6 +66,7 @@ class DefaultActivityCollection extends Collection {
 		return array_merge([
 			'list_class' => 'elgg-list-river',
 			'no_results' => elgg_echo('activity:no_results'),
+			'pagination_type' => 'infinite',
 		], $options);
 	}
 
