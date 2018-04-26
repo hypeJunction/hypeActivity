@@ -1,3 +1,13 @@
+<a name="1.0.7"></a>
+## [1.0.7](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.6...1.0.7) (2018-04-26)
+
+
+### Bug Fixes
+
+* **plugin:** use plugin bootstrap ([7086b5b](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/7086b5b))
+
+
+
 <a name="1.0.6"></a>
 ## [1.0.6](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.5...1.0.6) (2018-04-25)
 
