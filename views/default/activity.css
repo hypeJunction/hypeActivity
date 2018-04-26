@@ -114,6 +114,9 @@
 	.elgg-river-attachments {
 		padding: 0;
 		border-top: 1px solid $(border-color-soft);
+		.elgg-list {
+			background: $(background-color-soft);
+		}
 		.elgg-list > li:last-child {
 			border-bottom: none;
 		}
@@ -125,6 +128,10 @@
 		background: $(background-color-soft);
 		border-radius: 0;
 		margin: 0;
+	}
+
+	.elgg-river-message + .elgg-river-responses {
+		margin-top: 0.5rem;
 	}
 
 	.elgg-river-comments {
@@ -167,4 +174,15 @@
 #groups-tools {
 	margin: 1rem 0;
 	grid-template-columns: 1fr;
+}
+
+a[data-qualifier="url"] {
+	padding: 0.25rem 0.75rem;
+	font-size: 0.85rem;
+	vertical-align: middle;
+	background: $(background-color-soft);
+	border-radius: 1rem;
+	margin-top: -0.25rem;
+	display: inline-block;
+	line-height: 0.85rem;
 }

@@ -1,6 +1,8 @@
 <?php
 
 return [
+	'bootstrap' => \hypeJunction\Activity\Bootstrap::class,
+
 	'routes' => [
 		'collection:river:owner' => [
 			'path' => '/activity/owner/{username}',
