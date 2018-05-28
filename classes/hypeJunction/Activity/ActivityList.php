@@ -15,6 +15,8 @@ class ActivityList extends \Elgg\Database\River {
 	 */
 	public function addSort($field, $direction = null, $as = null) {
 		/* @todo Implement sorting */
+
+		return $this;
 	}
 
 	/**

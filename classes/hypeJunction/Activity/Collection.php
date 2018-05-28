@@ -87,7 +87,9 @@ abstract class Collection implements CollectionInterface {
 			$list->addFilter($filter->filter, $filter->target, $filter->params);
 		}
 
-		$list->setSearchQuery($this->query);
+		if ($this->query) {
+			$list->setSearchQuery($this->query);
+		}
 
 		return $list;
 	}

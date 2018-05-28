@@ -135,9 +135,18 @@ class CollectionAdapter {
 		list($sort_field, $sort_direction) = explode('::', $sort);
 
 		$list = new ActivityList($this->options);
-		$list->addSort($sort_field, $sort_direction)
-			->addFilter($filter, $target)
-			->setSearchQuery($query);
+
+		if ($sort_field) {
+			$list->addSort($sort_field, $sort_direction);
+		}
+
+		if ($filter) {
+			$list->addFilter($filter, $target);
+		}
+
+		if ($query) {
+			$list->setSearchQuery($query);
+		}
 
 		return $list;
 	}
