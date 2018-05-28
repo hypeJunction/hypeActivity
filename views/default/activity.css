@@ -1,3 +1,7 @@
+.elgg-river-filter-menu.elgg-module-popup {
+	padding: 0;
+}
+
 .elgg-menu-river-filter {
 	padding: 0.5rem;
 	position: relative;

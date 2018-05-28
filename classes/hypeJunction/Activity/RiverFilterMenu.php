@@ -49,7 +49,7 @@ class RiverFilterMenu {
 			'text' => $parent_label . elgg_view_icon('caret-down'),
 			'child_menu' => [
 				'display' => 'dropdown',
-				'class' => 'elgg-river-filter-menu elgg-menu-hover',
+				'class' => 'elgg-river-filter-menu elgg-menu-hover elgg-module-popup',
 				'data-position' => json_encode([
 					'at' => 'left bottom',
 					'my' => 'left top',
