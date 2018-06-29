@@ -1,3 +1,26 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.1...1.1.0) (2018-06-29)
+
+
+### Bug Fixes
+
+* **css:** correctly style the river menu filter ([020e553](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/020e553))
+* **css:** group tools no longer push out of the page on mobile ([8efcb3e](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/8efcb3e))
+* **css:** remove redundant border in attached lists ([d9dac2f](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/d9dac2f))
+* **lists:** fix issues with list exports ([677eb2e](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/677eb2e))
+* **lists:** set default pagination type ([ba7cd00](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/ba7cd00))
+* **modules:** rearrange profile modules ([fce195a](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/fce195a))
+* **plugin:** use plugin bootstrap ([7086b5b](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/7086b5b))
+* **river:** ensure that activity is in the context stack ([fb727e7](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/fb727e7))
+* **wall:** respect wall tool configuration ([3e61272](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/3e61272))
+
+
+### Features
+
+* **core:** updates and fixes ([b06e976](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/commit/b06e976))
+
+
+
 <a name="1.0.8"></a>
 ## [1.0.8](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.7...1.0.8) (2018-04-26)
 
