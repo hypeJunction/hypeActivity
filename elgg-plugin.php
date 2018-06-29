@@ -28,6 +28,10 @@ return [
 			'path' => '/profile/{username}',
 			'resource' => 'activity/owner',
 		],
+		'view:user:user' => [
+			'path' => '/profile/{username}',
+			'resource' => 'activity/owner',
+		],
 		'view:group' => [
 			'path' => '/groups/profile/{guid}/{title?}',
 			'resource' => 'activity/group',

@@ -55,7 +55,7 @@ class Bootstrap extends PluginBootstrap {
 	 * {@inheritdoc}
 	 */
 	public function ready() {
-		elgg_unextend_view('groups/tool_latest', 'framework/wall/group_module');
+
 	}
 
 	/**

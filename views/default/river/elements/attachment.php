@@ -9,15 +9,20 @@ if (!$entity instanceof ElggEntity) {
 $view = '';
 
 if ($entity instanceof ElggFile) {
-	$mime = $entity->getMimeType();
-	$base_type = substr($mime, 0, strpos($mime, '/'));
+	try {
+		$mime = $entity->getMimeType();
+		$base_type = substr($mime, 0, strpos($mime, '/'));
 
-	$vars['full_view'] = true;
-	$view = '';
-	if (elgg_view_exists("file/specialcontent/$mime")) {
-		$view = elgg_view("file/specialcontent/$mime", $vars);
-	} elseif (elgg_view_exists("file/specialcontent/$base_type/default")) {
-		$view = elgg_view("file/specialcontent/$base_type/default", $vars);
+		$vars['full_view'] = true;
+		$view = '';
+		if (elgg_view_exists("file/specialcontent/$mime")) {
+			$view = elgg_view("file/specialcontent/$mime", $vars);
+		} else if (elgg_view_exists("file/specialcontent/$base_type/default")) {
+			$view = elgg_view("file/specialcontent/$base_type/default", $vars);
+		}
+	} catch (Exception $exception) {
+		elgg_log($exception, 'ERROR');
+		return;
 	}
 }
 
