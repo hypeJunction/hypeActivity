@@ -19,8 +19,7 @@ class RiverFilterMenu {
 
 		$menu = $hook->getValue();
 
-		$svc = elgg()->activity;
-		/* @var $svc \hypeJunction\Activity\Activity */
+		$svc = Activity::instance();
 
 		$filters = $svc->getFilters();
 
@@ -45,7 +44,6 @@ class RiverFilterMenu {
 
 		$menu[] = \ElggMenuItem::factory([
 			'name' => 'filter',
-			'href' => '#',
 			'text' => $parent_label . elgg_view_icon('caret-down'),
 			'child_menu' => [
 				'display' => 'dropdown',

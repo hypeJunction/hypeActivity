@@ -2,9 +2,19 @@
 
 namespace hypeJunction\Activity;
 
+use Elgg\Di\ServiceFacade;
 use hypeJunction\Lists\FilterInterface;
 
 class Activity {
+
+	use ServiceFacade;
+
+	/**
+	 * {@inheritdoc}
+	 */
+	public static function name() {
+		return 'activity';
+	}
 
 	/**
 	 * Get a filter by its id
