@@ -1,3 +1,14 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/hypeJunction/Elgg3-hypeActivity/compare/1.1.0...1.1.1) (2019-06-04)
+
+
+### Bug Fixes
+
+* **menus:** fix river filter ([64363a5](https://github.com/hypeJunction/Elgg3-hypeActivity/commit/64363a5))
+* **sidebar:** use correct group modules view ([e35dbab](https://github.com/hypeJunction/Elgg3-hypeActivity/commit/e35dbab))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/hypeJunctionPro/Elgg3-hypeActivity/compare/1.0.1...1.1.0) (2018-06-29)
 
