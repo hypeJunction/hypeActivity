@@ -11,4 +11,7 @@ return [
 
 	'collection:river' => 'Activity',
 	'collection:river:friends' => 'Friends\' Activity',
+
+	'activity:settings:gatekeeper' => 'Enable gatekeeper',
+	'activity:settings:gatekeeper:help' => 'With gatekeeper enabled, activity pages will only be visible to logged in users',
 ];

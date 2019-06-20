@@ -1,5 +1,11 @@
 <?php
 
+$middleware = [];
+$gatekeeper = (bool) elgg_get_plugin_setting('gatekeeper', 'hypeActivity');
+if ($gatekeeper) {
+	$middleware[] = \Elgg\Router\Middleware\Gatekeeper::class;
+}
+
 return [
 	'bootstrap' => \hypeJunction\Activity\Bootstrap::class,
 
@@ -19,10 +25,12 @@ return [
 		'collection:river:all' => [
 			'path' => '/activity/all',
 			'resource' => 'activity/all',
+			'middleware' => $middleware,
 		],
 		'default:river' => [
 			'path' => '/activity',
 			'resource' => 'activity/all',
+			'middleware' => $middleware,
 		],
 		'view:user' => [
 			'path' => '/profile/{username}',
