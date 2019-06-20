@@ -14,4 +14,7 @@ return [
 
 	'activity:settings:gatekeeper' => 'Enable gatekeeper',
 	'activity:settings:gatekeeper:help' => 'With gatekeeper enabled, activity pages will only be visible to logged in users',
+
+	'activity:settings:profile_gatekeeper' => 'Enable profile gatekeeper',
+	'activity:settings:profile_gatekeeper:help' => 'With gatekeeper enabled, profile pages will only be visible to logged in users',
 ];
