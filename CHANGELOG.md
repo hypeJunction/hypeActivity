@@ -1,3 +1,14 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/hypeJunction/Elgg3-hypeActivity/compare/1.1.1...1.2.0) (2019-06-20)
+
+
+### Features
+
+* **access:** add a setting to enable profile gatekeepers ([f1ed8b7](https://github.com/hypeJunction/Elgg3-hypeActivity/commit/f1ed8b7))
+* **access:** add setting to enable activity gatekeeper ([058ae92](https://github.com/hypeJunction/Elgg3-hypeActivity/commit/058ae92))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/hypeJunction/Elgg3-hypeActivity/compare/1.1.0...1.1.1) (2019-06-04)
 
