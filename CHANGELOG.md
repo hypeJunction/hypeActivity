@@ -1,3 +1,13 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/hypeJunction/Elgg3-hypeActivity/compare/1.2.0...1.3.0) (2019-06-25)
+
+
+### Features
+
+* **modules:** rewire group modules to use post modules API ([0925728](https://github.com/hypeJunction/Elgg3-hypeActivity/commit/0925728))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/hypeJunction/Elgg3-hypeActivity/compare/1.1.1...1.2.0) (2019-06-20)
 
