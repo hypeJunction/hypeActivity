@@ -44,6 +44,10 @@ class Bootstrap extends PluginBootstrap {
 		elgg_register_collection('collection:river:owner', OwnedActivivityCollection::class);
 		elgg_register_collection('collection:river:friends', FriendsActivityCollection::class);
 		elgg_register_collection('collection:river:group', GroupActivityCollection::class);
+
+		elgg_unextend_view('groups/sidebar/members', 'groups/sidebar/admins');
+
+		elgg_register_plugin_hook_handler('modules', 'group', SetupGroupModules::class);
 	}
 
 	/**
